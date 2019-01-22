@@ -1,2 +1,4 @@
 # portfolio
-Звонова Ольга — Портфолио
+Ольга Звонова — Frontend-разработчик
+
+[Портфолио](https://xelga.github.io/portfolio/)
