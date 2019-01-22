@@ -1,17 +1,252 @@
 <!DOCTYPE html>
-<html lang="ru-RU">
-
+<html lang="ru">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Portfolio</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<link rel="manifest" href="./site.webmanifest">
+	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="theme-color" content="#ffffff">
+	<!--https://realfavicongenerator.net/-->
+	<title>Звонова Ольга — Портфолио</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
+	<link href="./assets/styles/app.min.css" rel="stylesheet">
 </head>
-
 <body>
-	<p>Hello portfolio!</p>
+<main class="page">
+	<section class="section section_theme_bg">
+		<div class="page__container about">
+			<picture>
+				<img class="about__avatar" src="./assets/images/avatar@1x.jpg" srcset="./assets/images/avatar@2x.jpg 2x" alt="Звонова Ольга">
+			</picture>
+			<div class="about__descr">
+				<h1 class="about__name">Звонова Ольга</h1>
+				<h3 class="about__position">Frontend developer</h3>
+			</div>
+		</div>
+	</section>
+	<section class="section">
+		<div class="page__container">
+			<h2 class="section__title">Ключевые навыки</h2>
+			<div class="tags">
+				<span class="tags__item">HTML5</span>
+				<span class="tags__item">CSS3</span>
+				<span class="tags__item">Sass</span>
+				<span class="tags__item">БЭМ</span>
+				<span class="tags__item">JavaScript</span>
+				<span class="tags__item">es2015</span>
+				<span class="tags__item">jQuery</span>
+				<span class="tags__item">Adobe Photoshop</span>
+				<span class="tags__item">Sketch</span>
+				<span class="tags__item">Figma</span>
+				<span class="tags__item">Git</span>
+				<span class="tags__item">Gulp</span>
+				<span class="tags__item">PhpStorm</span>
+			</div>
+		</div>
+	</section>
+	<section class="section section_theme_border">
+		<div class="page__container">
+			<h2 class="section__title">Опыт работы</h2>
+			<div class="section__experience experience">
+				<div class="experience__item">
+					<span class="experience__title">GoTech</span>
+					<span class="experience__date">Октябрь, 2018 — Январь, 2019</span>
+					<span class="experience__position">Frontend developer</span>
+					<p class="experience__descr">
+						Работа в команде по Scrum методологии. Внедрение БЭМ метологии. Разработка SPA в сфере аналитики.
+					</p>
+				</div>
+			</div>
+			<div class="section__experience experience">
+				<div class="experience__item">
+					<span class="experience__title">Росоператор</span>
+					<span class="experience__date">Февраль, 2018 — Июль, 2018</span>
+					<span class="experience__position">HTML-верстальщик</span>
+					<p class="experience__descr">
+						Редизайн порталов «PenzaDoctor» и «ПотерялНашел» на основе старой версии сайта.
+						Разработка дизайна и структуры сайта, кроссбраузерная, адаптивная верстка.
+					</p>
+				</div>
+			</div>
+			<div class="section__experience experience">
+				<div class="experience__item">
+					<span class="experience__title">Htmlacademy</span>
+					<span class="experience__date">Май, 2015 — Июль, 2015</span>
+					<span class="experience__position">Наставник на интенсиве «Базовый HTML и CSS»</span>
+					<p class="experience__descr">
+						Консультация студентов по заданиям, проверка выполненных заданий.
+					</p>
+				</div>
+			</div>
+			<div class="section__experience experience">
+				<div class="experience__item">
+					<span class="experience__title">Vigrom</span>
+					<span class="experience__date">Март, 2012 — Январь, 2018</span>
+					<span class="experience__position">HTML-верстальщик</span>
+					<p class="experience__descr">
+						Работа в команде по Scrum методологии с использованием канбан-доски.
+						Кроссбраузерная, Perfect Pixel верстка по psd/sketch макетам (Photoshop/Zeplin).
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section section_theme_border">
+		<div class="page__container">
+			<h2 class="section__title">Проекты</h2>
+			<div class="projects">
+				<div class="projects__item">
+					<picture>
+						<img class="projects__logo" src="./assets/images/projects/pona@1x.jpg" srcset="./assets/images/projects/pona@2x.jpg 2x" alt="Звонова Ольга">
+					</picture>
+					<div class="projects__descr">
+						<p class="projects__text">Городской сервис пропаж и находок</p>
+					</div>
+					<a class="projects__link" href="http://пона.рф" target="_blank"></a>
+				</div>
+				<div class="projects__item">
+					<picture>
+						<img class="projects__logo" src="./assets/images/projects/penzadoctor@1x.jpg" srcset="./assets/images/projects/penzadoctor@2x.jpg 2x" alt="Звонова Ольга">
+					</picture>
+					<div class="projects__descr">
+						<p class="projects__text">Медицинский портал г.&nbsp;Пензы</p>
+					</div>
+					<a class="projects__link" href="https://penzadoctor.ru/" target="_blank"></a>
+				</div>
+				<div class="projects__item projects__item_bg_dark">
+					<picture>
+						<img class="projects__logo" src="./assets/images/projects/fundery@1x.jpg" srcset="./assets/images/projects/fundery@2x.jpg 2x" alt="Звонова Ольга">
+					</picture>
+					<div class="projects__descr">
+						<p class="projects__text">Сайт компании<br>FUNDERY</p>
+					</div>
+					<a class="projects__link" href="http://fundery.ru/" target="_blank"></a>
+				</div>
+				<div class="projects__item projects__item_bg_dark">
+					<picture>
+						<img class="projects__logo" src="./assets/images/projects/icovoting@1x.jpg" srcset="./assets/images/projects/icovoting@2x.jpg 2x" alt="Звонова Ольга">
+					</picture>
+					<div class="projects__descr">
+						<p class="projects__text">Сайт голосования за&nbsp;ICO с&nbsp;записью в блокчейн</p>
+					</div>
+					<a class="projects__link" href="https://icovoting.com/" target="_blank"></a>
+				</div>
+				<div class="projects__item projects__item_bg_dark">
+					<picture>
+						<img class="projects__logo" src="./assets/images/projects/fundery@1x.jpg" srcset="./assets/images/projects/fundery@2x.jpg 2x" alt="Звонова Ольга">
+					</picture>
+					<div class="projects__descr">
+						<p class="projects__text">FUNDERY<br>Landing page</p>
+					</div>
+					<a class="projects__link" href="http://fundery.io/" target="_blank"></a>
+				</div>
+				<div class="projects__item projects__item_bg_red">
+					<picture>
+						<img class="projects__logo" src="./assets/images/projects/unigym@1x.jpg" srcset="./assets/images/projects/unigym@2x.jpg 2x" alt="Звонова Ольга">
+					</picture>
+					<div class="projects__descr">
+						<p class="projects__text">Сеть фитнес-клубов г.&nbsp;Пензы</p>
+					</div>
+					<a class="projects__link" href="https://penza.uni-gym.ru/" target="_blank"></a>
+				</div>
+				<div class="projects__item">
+					<picture>
+						<img class="projects__logo" src="./assets/images/projects/ecobi@1x.jpg" srcset="./assets/images/projects/ecobi@2x.jpg 2x" alt="Звонова Ольга">
+					</picture>
+					<div class="projects__descr">
+						<p class="projects__text">Интернет-магазин мобильных аксессуаров</p>
+					</div>
+					<a class="projects__link" href="https://ecobi.ru/" target="_blank"></a>
+				</div>
+				<div class="projects__item">
+					<picture>
+						<img class="projects__logo" src="./assets/images/projects/penzaview@1x.jpg" srcset="./assets/images/projects/penzaview@2x.jpg 2x" alt="Звонова Ольга">
+					</picture>
+					<div class="projects__descr">
+						<p class="projects__text">Новостной портал г.&nbsp;Пензы</p>
+					</div>
+					<a class="projects__link" href="https://penzavzglyad.ru/" target="_blank"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section section_theme_border">
+		<div class="page__container">
+			<h2 class="section__title">Курсы</h2>
+			<div class="courses">
+				<div class="courses__item">
+					<div class="courses__info">
+						<div class="courses__descr">
+							<span class="courses__title">Базовый JavaScript</span>
+							<span class="courses__date">14 ноября — 27 декабря 2017</span>
+						</div>
+						<a class="courses__icon" href="https://github.com/xelga/101110-kekstagram" target="_blank">
+							<svg class="icon" width="40" height="40">
+								<use xlink:href="./assets/svg/svg-sprite.svg#icon-github"></use>
+							</svg>
+						</a>
+					</div>
+					<div class="courses__links">
+						<a class="courses__link" href="https://htmlacademy.ru/intensive/javascript" target="_blank">htmlacademy.ru</a>
+						<a class="courses__link" href="./assets/pdf/course-basic-js.pdf" target="_blank">certificate</a>
+					</div>
+				</div>
+				<div class="courses__item">
+					<div class="courses__info">
+						<div class="courses__descr">
+							<span class="courses__title">JavaScript, уровень&nbsp;2</span>
+							<span class="courses__date">28 мая — 04 июля 2018</span>
+						</div>
+						<a class="courses__icon" href="https://github.com/xelga/101110-kekstagram" target="_blank">
+							<svg class="icon" width="40" height="40">
+								<use xlink:href="./assets/svg/svg-sprite.svg#icon-github"></use>
+							</svg>
+						</a>
+					</div>
+					<div class="courses__links">
+						<a class="courses__link" href="https://htmlacademy.ru/intensive/ecmascript" target="_blank">htmlacademy.ru</a>
+						<a class="courses__link" href="./assets/pdf/course-advanced-js.pdf" target="_blank">certificate</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="section section_theme_bg">
+		<div class="page__container">
+			<div class="contacts">
+				<div class="contacts__item">
+					<a class="contacts__info" href="https://github.com/xelga/" target="_blank">
+						<svg class="contacts__icon" width="20" height="20">
+							<use xlink:href="./assets/svg/svg-sprite.svg#icon-github"></use>
+						</svg>
+						<span class="contacts__title">GitHub</span>
+					</a>
+				</div>
+				<div class="contacts__item">
+					<span class="contacts__info">
+						<svg class="contacts__icon" width="20" height="20">
+							<use xlink:href="./assets/svg/svg-sprite.svg#icon-skype"></use>
+						</svg>
+						<span class="contacts__title">wanxelga</span>
+					</span>
+				</div>
+				<div class="contacts__item contacts__item_type_mail">
+					<a class="contacts__info" href="mailto:wanxelga@yandex.ru" target="_blank">
+						<svg class="contacts__icon" width="20" height="20">
+							<use xlink:href="./assets/svg/svg-sprite.svg#icon-mail"></use>
+						</svg>
+						<span class="contacts__title">wanxelga@yandex.ru</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</main>
 </body>
-
 </html>

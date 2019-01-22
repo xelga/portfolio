@@ -1,2 +1,2 @@
 # portfolio
-Zvonova Olga – Portfolio
+Звонова Ольга — Портфолио
